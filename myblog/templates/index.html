@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>IS211 Final Project! Blog Application by: Victor Pessoa</h1>
+    {% for post in posts %}
+        <h2><a href="{{ url_for('post', post_id=post.id) }}">{{ post.title }}</a></h2>
+        <p>{{ post.content }}</p>
+    {% endfor %}
+{% endblock %}
