@@ -18,7 +18,7 @@ Create a virtual environment: python -m venv env
 Activate the virtual environment:
 On Windows: env\Scripts\activate
 On Unix or MacOS: source env/bin/activate
-Install the necessary dependencies (listed in the requirements.txt file): pip install -r (Flask,Flask-SQLAlchemy,Flask-WTF,Flask-Login)
+Install the necessary dependencies (listed in the requirements.txt file): pip install -r (Flask,Flask-SQLAlchemy,Flask-WTF,Flask-Login,flask-migrate)
 Start the Flask server: run the run.py file
 
 Usage
